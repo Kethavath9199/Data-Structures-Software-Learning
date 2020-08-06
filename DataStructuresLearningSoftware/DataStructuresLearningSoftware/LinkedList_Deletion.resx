@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="tailfixtimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>257, 17</value>
+  </metadata>
+  <metadata name="deletefixtimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>131, 17</value>
+  </metadata>
+  <metadata name="deletetimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Let us formulate the problem statement to understand the deletion process. Given a ‘key’, delete the first occurrence of this key in linked list.
+To delete a node from linked list, we need to do following steps.
+1) Find previous node of the node to be deleted.
+2) Change the next of previous node.
+3) Free memory for the node to be deleted.</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAvcAAADzCAYAAAACcTmEAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        xAAADsQBlSsOGwAAGBdJREFUeF7t3T2S20a0BlAv5EWutxyXlqJMy9AGvAVFXoBKqQNvQIkTVzl7iTfA
+        R0oEeQk2SKDZIC+a51TdKg/+5qqn2fwGgxn/sgMAALog3AMAQCeEewAA6IRwDwAAnRDuAQCgE8I9AAB0
+        QrgHAIBOCPcAANAJ4R4AADoh3AMAQCeEexL5Z/f7t992v/6xr7/+PG4DAGAu4f7NfP3rGJ7/+Lz7etx2
+        9ufu0499rwrXwj0AwCOE+zcj3AMA9Eu4fzPCPQBAv4T7N/NIuD+fO1TpGrvd398/jo77bffh+z/HvcG/
+        ny+O+fSvcA8A8Ajh/s3Uhfuw/ao+7n7/73hYvPNeqIuAPwr2VyXcAwAsJty/meu77xMVwvX5nIkgfzr2
+        uG3qG4NvX3Z//9gWvwk4f5Nx0ZtwDwCwmHD/ZpaH+3M4Hz9ac378pvx4zuD0OYdw/9+X3YfiNT2WAwDw
+        COH+zcRwP+uxnBDEpyve0b/xDcQQ7sMjOZ/+/XHKkXAPAPAI4f7NrBPuhzv38XGbQgn3AACrEu7fzOJw
+        f+OxnCsTod1jOQAAzyHcv5nl4T7ejb98/Oa0bzi2FO7jnf/TL9SGz+MXagEAmhHu38Avv/zyowZDgJ4X
+        7vfuPZpzOjaG9kKdwn35b+FflHAPALCYcN+5IdjHgD8E6Nnh/ofy8/SXz8wfjAP+593X4Y5+CPcH44B/
+        uNZpm3APALCYcN+xcbAfwj3AbKfH7caP5QGQkbTXKcEeaEK4B9gUia9Dgj3QwsUvucc6PjY37P/xV6/C
+        L9Sfth1Mbf/h/Ljfj+2j3++5PBaAOaS+zgj2QCtzw/3SOv+uTvl3eWIJ+ADLSH4dEeyB5m48llP887Xj
+        v65V2n76hflRuD9tL/+5XADuk/46Idi/myWPM5yPPdwxPQeyy9B0fRc27o8hbBy2wr7RX0SiA3PC/cXX
+        fWo+lLZPz53zX9PyrD/AEhJgBwT7dxTDdrnOAX/q2CGk3/r/E5yD1WTYCt9YeISiQ4vD/ZLQPyfcl/7k
+        LgBTpMCNE+zf1Siw33ycYerYn8537GN4C+cUHquIId4d1s4J9wCbIglumGD/zuaEoiGMxXA/fqTm/M3A
+        +K77+TqFbxJmhDM68aJwX/6mE4B7pMGNEuzf3XQour7jGY4d3bW/+uXHYp3D1fU3DtPfHNCJU7i/voPe
+        NNwfqvBTovG1AbhNItwgwZ7nhvtwt3/8aM6Nu7r0ovA7Gcd51DzcF8ojOQDLSIUbI9jz03S4v36c4Ua4
+        X3zn/fLz/j4R7uhMuHsf50rTcH/YNvo8gj3AcpLhhgj2nIVQdKibjzPcCvfxOuO778d9o3PiTwaG8kgO
+        dUbh/rgVgHrS4UYI9lwahftCne963gr3e/cezRmfc3W8R3KoJdwDtCYhboBgz7VRKLr5OMOdcP9D+ZuF
+        8mMRo2OFMvb+73/+91TzCfcArUmJyQn2lAlF5CLcA+QgKSYm2DNNKCKXunAPQGvSYlKCPbcJ9+Qi3APk
+        IDEmJNhzn3BPLsI9QA5SYzKCPWsTwliDeQWQg+SYiGDPMwhhrMG8AshBekxCsOdZhDDWYF4B5CBBJiDY
+        80xCGGswrwBykCJfTLDn2YQw1mBeAeQgSb6QYM8rCGGswbwCyEGabGhJSI/Hzj0HWhDCWIN5BZCDRNnQ
+        3LA+Pu7WsdCaEMYazCuAHKTKhuYE9vExU8fBWoQwat2aO7X7AGhLsmzoXmgf7y8dA60IWrQW5854/szZ
+        Pt4HQHvSZWNT4X28Pe6D1m4FqqntcE+cO+M5dG/beB8A65AwGysF+PG2YTus5Vagmtp+cGsfHMQ5EufK
+        rY/jdgDWJWU2Vgry44JnmApWpW0Hcft4H0TjuTKnAHgOSXMFpUB/r2ANpYA1/vggbhvvg5LSnJkqAJ5H
+        qlxBKbzfK1hLKWwNNbUf5ijNnXEB8FxS5QpK4f1ewZpKoWuqYInSHBoKgOeTKldSCvBTBc9QCl/jIp/S
+        mpGtSnOpdFyvtSWl/lWugkeZRXulF5fKVbRRCmFDkVPp9ZCx4lwq7e+5tqTUv8pV8CizaK/04lK5aktK
+        /WepGMBilY7tubak1H/GMp+2odS/ylXwKLNor/TiUrlqS0r9Z6oYwt4xiB1qS7bad0sZxyBjT3Nste+W
+        Mo5Bxp7YLrNoz4vKYtdS7FvlrC3Zat8tZRyDjD3NsdW+W8o4Bhl7YrvMoj0vKotdS1vtu6WMY5Cxpzm2
+        2ndLGccgY09zbLXvljKOQcae2C6zaM+LymLX0lb7binjGGTsaY6t9t1SxjHI2NMcW+27pYxjkLEntsss
+        2vOisti1tNW+W8o4Bhl7mmOrfbeUcQwy9jTHVvtuKeMYZOyJ7TKL9ryoLHYtbbXvljKOQcae5thq3y1l
+        HIOMPc2x1b5byjgGGXtiu8yiPS8qi11LW+27pYxjkLGnObbad0sZxyBjT3Nste+WMo5Bxp7YLrNoz4vK
+        YtfSVvtuKeMYZOxpjq323VLGMcjU05Jelhzbq4xjkKmnTL1Qx1duz0S22N2zpJclx/Yq4xhk7GmOrfbd
+        UsYxyNRT7OVeP3OP61nGMcjUU+wlQz8s56u2ZxJb7O6JvdzrZ+5xPcs4Bpl6WtLLkmN7lXEMMvUUe7nX
+        z9zjepZxDDL1FHvJ0A/L+artmcQWu3tiL/f6mXtczzKOwbN6Ovxff++JvQz/p+Ap8dh3lXEMMvUUe7nX
+        05xjepdxDDL1FHvJ0hPL+IrtmcAWu3tiL/d6mnNM7zKOwTN6GoL6vYA/9DHn+Gf0nV3GMcjWU+znVl/3
+        9r+DjGOQrafYT21ff3//uPv1j99O9enf446TP3efjvs+fP/nuC2e93H3+3/HjdF/X3Yfas7bm3NMD973
+        1R08Mnl7kXEMsvUU+7nV17397yDjGDyjpxjW7wX2Jceu3ffB179+vlnGim+cr/SsMVgie09Tfd3b/w4y
+        jkH2nmr6Gof7X7992f193PeTcL+W9311B49M3l5kHIPsPU31dW//O8g4Bs/qaU5gj8cc6lZfq/f97+fj
+        m125MgT81cegQvaepnq7te9dZByD7D3V9HYK0t8+nsL45d174X4t7/vqDmonbk8yjkH2nqZ6u7VvqfNC
+        VKi//jwelU/LMWjlWT2Ng3tJ3H+vr3v7HxLeJA91+cb7z+73b8L9lIw9HcS+Sr3d2ldra+vUGmPwqIw9
+        HcS+lvZ2mhffvuy+Dv99MR+E+7XkmkUvUjtxl7hc/PJNqmeMwVIZezqIfZV6u7Vvqct5U6irH3Pm0HIM
+        WnlmTzG8j8V9h4p9lXq7te9R8VGc6+dh81hzDGpl7Okg9lXqb2r7I0qPdI0r0/xaYwwelbGng9jX0v5O
+        718/3qeGIB/zj3C/llyz6EVqJu0yP++A/ZxQ1xMyg/XHYLmMPR3Evkr9TW2vMbUQZQ9lLceglWf2FMN7
+        FLcP+2Jfpd5u7XvM+Y311z8+774et2a03hjUy9jTIPY27m9q+yPO69FoHo0e+cqyVq0xBo/K2NMg9rak
+        v8twHz4+3b0X7teSbxa9QM2kXeQ0ET/vPk0tgi+2+hhUyNjTIPY27m9qe43JhSi8aQr38zy7p3GIPyht
+        i32V+pva/rD4SE7iR7wOVhuDB6zd0yPXj+eOr1Ha9qjJcH8Q51mSnzSuMQaPytjTIPa2pMfT+9fp6z6+
+        ey/cryXfLHqBpRN2qdNkOryBJg1la49BjYw9DWJv4x5L22pNLUQ330wTaDkGrTy7p3GQjx8P2waxt3F/
+        U9sfJtw/JPa0lRr33cq99SjberXGGDwq9rSVuuf0/hW+qbvIQ8L9avLM7BdaMlmXOz+S8zPMhx+FJ3pD
+        XXcM6sSetlLjvh91XogKleQuWEnLMWilpqeac6JxoB9qLH6e8ecrbWtCuH9I7GkrNe67lXvhPVugWmMM
+        HhV72krdc/q6X7xXDRnoMFeE+7XkmdkvtGSyLna6U3+eSBnvuq46BpViT1upcd+POi9EU5VzgWo5Bq3E
+        np5VpWB/qNKxpRr33Va40ZD4G8WD9cagXuxpKzXuuxXh/nGxp63UPaev+2h9GbZ/+P7n6eZnDOnxCYeL
+        7YOJJyDmzLNsc3EteWb2Cy2ZrEudFr04uRM+mrPmGNSKPW2lxn0/anIhinddEwazlmPQSuzpWfVIsD/U
+        uO+2Ln/RP+PvbgzWG4N6saet1LjvVoT7x8WetlL3nL7uV+9Rw42Fj7sPpXAfbzzs62Jtiu99o/km3J/l
+        mdkvtGSyLlP+kdPFxE3y4/D1xqBe7GkrNe77UbcWovMbar5FquUYtBJ7embVBvtDjftuLtxomJxjCdao
+        VcegUuue4vVu1VxT544/buFeuL+3/9nWGINHZewpiv3N7XM63Mf3tp91dYf+Ym0q1/iGxPiaF3XsYc4x
+        Pcg5i55syWRdZMbkzBLMVhuDB2TsKYr9xT7HHz9CuG8n9vSsisG+JuCP+17DzTe7Qwn3Ra17Gl8vfjyu
+        e26dU9r2qJvhPeHvdqwxBo/K2NMg9rakx9PaUgzNN+7On1wec6qJEC7cn+WbRS+wdMLOdV7wblfxmbIn
+        W2sMHpGxp0HsbdxjaVutyXDvsZzFanqqOWdQCvaHmhI/V/yc44/XUX4TzbA2HTxnDJZp2VO81nC98bZx
+        TSkde6hBadujJsP9nZ8MvcoaY/CojD0dxL5ikZuv0N46E3bqkZxBeDNNEM7WGYPHZOzpIPYVa1DaVuvu
+        XdWEd+0PWo5BKzU91ZwzKAX7ocbi5xl/vtK2d5NxDFr1FK8TrzXeFj+O26PSMYeKprY/Ys6NrEy/07HG
+        GDwqe0+xyM9XaW+NSTt5xzXI9FjFGmPwqOw9xYqmtte4Ge4T//nClmPQSk1PNecclML8+ONB/ByxBqVt
+        7ybjGLTqaeo6pe1x25x9hxq7ta/W1tapNcbgUdl6iv3EYht8pfbWmLinv0Jx6658+JHlq3/8vcYYPCpb
+        T7GfWGO39r2LjGNQ01PNOTHExyBf2havHyua2v5OMo5Bi57iNcbXmbN92DfeNlTJvf3vIOMYZOop9hKL
+        7fDV2jN5LXb3xF5ildzb/w4yjkFNTzXnlEL8IO6L1441dmvfu8g4Bo/2FM8vXWPJvvhx3F4y55jeZRyD
+        TD3FXrL0xDK+YnsmsMXuntjLvZ7mHNO7jGNQ09PSc2J4P9RY3Bevfetz3Nv/DjKOwaM93Tv/3v5BPG7p
+        8e8q4xhk6Sn2kaEf6viq7ZnEFrtbYh9z+pl7XM8yjkFNT0vOicH9UFPiMXOuP+eY3mUcgxY93Tp/7vXj
+        cfeOPVhybK8yjkGWnmIfr+6Fer5yeyayxe6W2MecXpYc26uMY1DT05JzYmi/JR4359pLeuhVxjFYu6e5
+        15973GDp8T3KOAZZesrSB4/x1dszmS12tyztY+nxPco4BjU9LTknhvZbDteae+zBkh56lXEM1u5pyfWX
+        9LDkur3KOAaZeso0LtTxFdzL9KJ6lYxjkKmnJT1k6vtVMo5BTU8159xzuJZwv0zGMVi7p7Wuv9Z1tyTj
+        GGTsie0yi/a8qCx2LW2175YyjkFNTzXnzBHD/b2Av1YPW5JxDNbuaa3rr3XdLck4Bhl7YrvMoj0vKotd
+        S1vtu6WMY1DTU805cwn382Ucg7V7Wuv6a113SzKOQcae2C6zaM+LymLX0lb7binjGNT0VHPOEveC/cHa
+        PWxBxjFYu6e1rr/Wdbck4xhk7IntMov2vKgsdi1tte+WMo5BTU8157SWoYdXyzgGa/e01vXXuu6WZByD
+        jD2xXWbRnheVxa6lrfbdUsYxqOmp5pzWMvTwahnHYO2e1rr+WtfdkoxjkLEntsss2vOisti1tNW+W8o4
+        BjU91ZzTWoYeXi3jGKzd01rXX+u6W5JxDDL2xHaZRXteVBa7lrbad0sZx6Cmp5pzWsvQw6tlHIO1e1rr
+        +mtdd0syjkHGntgus2jPi8pi19JW+24p4xjU9FRzTmsZeni1jGOwdk9rXX+t625JxjHI2BPbZRbteVFZ
+        7Fraat8tZRyDmp5qzmkt9qBy1hrWun68rspZ8CizaK/04lK5aku22ndLGcegpqeac1qLPaictYa1rh+v
+        q3IWPMos2iu9uFSu2pJS/ypXzVVzTmuxB5Wz1rDW9eN1Vc6CR5lFe6UXl8pVW1LqX+WquWrOgRbMPaCW
+        VQMai2/KKmfNVXMOtGDuAbWsGgATBCxexdwDalk1ACYIWLyKuQfUsmoATBCweBVzD6hl1QCYIGDxKuYe
+        UMuqwcnf3z/ufv3jt1N9+ve44+TP3afjvg/f/zlug34JWLyKuQfUsmpwMg73v377svv7uO+nJ4b7fz8f
+        +/i4+/2/4zZ4MgGLVzH3gFpWjaOrYBvrrz+PR/XtNAbfPu4+HP/tl3fvhXvei4DFq5h7QC2rxtHXv36G
+        1lt1/ZjKTBsJqudw/2X3dfjvi29sbof76zH8vPt63PfDaRxG5//35eKbicmvxZt8k0UeAhavYu4Btawa
+        R+dAOR1ID1UV8DcY7v8+BfnY81S4P2+/rnj+P7vfvw3bh3EO246PAQn3ZCFg8SrmHlDLqnE0Ge4Pwp3l
+        8XPopcd5YvCdE1TvXeNZLsN9+PjUazncn/+NE0E+hvLR3fvzv330jc9GviGibwIWr2LuAbWsGkc3w/3e
+        9f54F/q6hvB7O9zPu8azjMP9OcwPAbsU7qfu5sdvWuKYTvybx3flhXsSELB4FXMPqGXVOLoX7q/vMB9D
+        6kUoDY+nxDv8k0F1wTWe4Drcj+/eF4J8/KnGZI3+3VfnFMZcuCcBAYtXMfeAWlaNo+Xhvux0nVnhvqx4
+        jScohftzoD+MS224H43paTzOdfW7DMI9CQhYvIq5B9SyahzVhvvzeaNaEO5nXeMJyuH+vP3D9z9Pj9TM
+        eSynLP5k4vwnN6/+rcI9CQhYvIq5B9SyahzdC/fX+28/Lz8v3C+4xhNMhftzIN+H8atwH/8NE/++8NjR
+        +Juk+I3NxTcH4e5+9Z8ghQcJWLyKuQfUsmoc3Qz38dGTIahOhM/TdeaE+yXXeILpcB9D+c+6COL3Hs05
+        hftw17607WLs4/ZjhW8S4BkELF7F3ANqWTWOJsN9COAX4bwUzGPILYb70V3oJdd4glvhfhy2L/4dP5R/
+        ChGPG9+1P4ljHAP8xdjPfewH2hGweBVzD6hl1TiKj4dM1WWgLdxZjnURkKfuQi+5BvBsAhavYu4Btawa
+        R+PHTi5q8nGQcTj/vPs63G0eB/PJu9ALrgE8lYDFq5h7QC2rBsAEAYtXMfeAWlYNgAkCFq9i7gG1rBoA
+        EwQsXsXcA2pZNQAmCFi8irkH1LJqAEwQsHgVcw+oZdUAmCBg8SrmHlDLqgEwQcDiVcw9oJZVA2CCgMWr
+        mHtALasGwAQBi1cx94BaVg2ACQIWr2LuAbWsGgATBCxexdwDalk1ACYIWLyKuQfUsmoATBCweBVzD6hl
+        1QCYIGDxKuYeUMuqATAhBiylXlUAS1g1ACaUgpZSzy6AJawaABNKQUupZxbAUlYOAADohHAPAACdEO4B
+        AKATwj0AAHRCuAcAgE4I9wAA0AnhHgAAOiHcAwBAJ4R7AADohHAPAACdEO4BAKATwj0AAHRCuAcAgE4I
+        9wAA0AnhHgAAOiHcAwBAJ4R7AADohHAPAACdEO4BAKATwj0AAHRCuAcAgE4I9wAA0AnhHgAAOiHcAwBA
+        J4R7AADohHAPAACdEO4BAKATwj0AAHRCuAcAgE4I9wAA0AnhHgAAOiHcAwBAJ4R7AADohHAPAACdEO4B
+        AKATwj0AAHRCuAcAgE4I9wAA0AnhHgAAOiHcAwBAJ4R7AADohHAPAACdEO4BAKATwj0AAHRCuAcAgE4I
+        9wAA0AnhHgAAOiHcAwBAJ4R7AADohHAPAACdEO4BAKATwj0AAHRCuAcAgE4I9wAA0AnhHgAAOiHcAwBA
+        J4R7AADohHAPAACdEO4BAKATwj0AAHRCuAcAgE4I9wAA0AnhHgAAOiHcAwBAJ4R7AADohHAPAACdEO4B
+        AKATwj0AAHRCuAcAgE4I9wAA0AnhHgAAOiHcAwBAJ4R7AADohHAPAACdEO4BAKATwj0AAHRCuAcAgE4I
+        9wAA0AnhHgAAOiHcAwBAJ4R7AADohHAPAACdEO4BAKATwj0AAHRCuAcAgE4I9wAA0AnhHgAAOiHcAwBA
+        J4R7AADohHAPAACdEO4BAKATwj0AAHRCuAcAgE4I9wAA0AnhHgAAOiHcAwBAJ4R7AADohHAPAABd2O3+
+        H3IazyiS1bZnAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>// A complete working C program to demonstrate deletion in singly 
+// linked list 
+#include &lt;stdio.h&gt; 
+#include &lt;stdlib.h&gt; 
+  
+// A linked list node 
+struct Node 
+{ 
+    int data; 
+    struct Node *next; 
+}; 
+  
+/* Given a reference (pointer to pointer) to the head of a list 
+   and an int, inserts a new node on the front of the list. */
+void push(struct Node** head_ref, int new_data) 
+{ 
+    struct Node* new_node = (struct Node*) malloc(sizeof(struct Node)); 
+    new_node-&gt;data  = new_data; 
+    new_node-&gt;next = (*head_ref); 
+    (*head_ref)    = new_node; 
+} 
+  
+/* Given a reference (pointer to pointer) to the head of a list 
+   and a key, deletes the first occurrence of key in linked list */
+void deleteNode(struct Node **head_ref, int key) 
+{ 
+    // Store head node 
+    struct Node* temp = *head_ref, *prev; 
+  
+    // If head node itself holds the key to be deleted 
+    if (temp != NULL &amp;&amp; temp-&gt;data == key) 
+    { 
+        *head_ref = temp-&gt;next;   // Changed head 
+        free(temp);               // free old head 
+        return; 
+    } 
+  
+    // Search for the key to be deleted, keep track of the 
+    // previous node as we need to change 'prev-&gt;next' 
+    while (temp != NULL &amp;&amp; temp-&gt;data != key) 
+    { 
+        prev = temp; 
+        temp = temp-&gt;next; 
+    } 
+  
+    // If key was not present in linked list 
+    if (temp == NULL) return; 
+  
+    // Unlink the node from linked list 
+    prev-&gt;next = temp-&gt;next; 
+  
+    free(temp);  // Free memory 
+} 
+  
+// This function prints contents of linked list starting from  
+// the given node 
+void printList(struct Node *node) 
+{ 
+    while (node != NULL) 
+    { 
+        printf(" %d ", node-&gt;data); 
+        node = node-&gt;next; 
+    } 
+} 
+  
+/* Drier program to test above functions*/
+int main() 
+{ 
+    /* Start with the empty list */
+    struct Node* head = NULL; 
+  
+    push(&amp;head, 7); 
+    push(&amp;head, 1); 
+    push(&amp;head, 3); 
+    push(&amp;head, 2); 
+  
+    puts("Created Linked List: "); 
+    printList(head); 
+    deleteNode(&amp;head, 1); 
+    puts("\nLinked List after Deletion of 1: "); 
+    printList(head); 
+    return 0; 
+}</value>
+  </data>
+</root>

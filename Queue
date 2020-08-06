@@ -1,0 +1,38 @@
+		Queue
+
+Queues are data structures that follow the First In First Out (FIFO) i.e. the first element that is added to the queue is the first one to be removed.
+
+Elements are always added to the back and removed from the front. Think of it as a line of people waiting for a bus. The person who is at the beginning of the line is the first one to enter the bus.
+
+The difference between stacks and queues is in removing. In a stack we remove the item the most recently added; in a queue, we remove the item the least recently added.
+
+Basic Operations
+
+Enqueue: add (store) an item to the queue.
+Dequeue: remove (access) an item from the queue. 
+Front: Get the front element from queue
+Isempty: Checks if the queue is empty
+Rear: Get the last element from queue
+
+Queue Variations
+
+   The standard queue data structure has the following variations:
+1. Double-ended queue
+	In a standard queue, a character is inserted at the back and deleted in the front. However, in a double-ended queue, characters can be inserted and deleted from both the front and back of the queue.
+2. Circular queue
+
+Applications
+
+   Queue, as the name suggests is used whenever we need to manage any group of objects in an order in which the first one coming in, also gets out first while the others wait for their turn, like in the following scenarios:
+1. Serving requests on a single shared resource, like a printer, CPU task scheduling etc.
+2. In real life scenario, Call Center phone systems uses Queues to hold people calling them in an order, until a service representative is free.
+3. Handling of interrupts in real-time systems. The interrupts are handled in the same order as they arrive i.e First come first served.
+
+Queue Implementation
+
+1.Arrays
+2.Linked list
+
+Arrays (queue basics)
+-see from hackerearth.com
+		 		 

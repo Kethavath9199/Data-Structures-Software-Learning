@@ -1,0 +1,25 @@
+﻿Build started 02-04-2019 12:33:30 PM.
+     1>Project "F:\Backup3\Data-Structures-Learning-Software\DataStructuresLearningSoftware\DataStructuresLearningSoftware\DataStructuresLearningSoftware.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\DataStructuresLearningSoftware.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       CoreResGen:
+         No resources are out of date with respect to their source files. Skipping resource generation.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         DataStructuresLearningSoftware.vcxproj -> F:\Backup3\Data-Structures-Learning-Software\DataStructuresLearningSoftware\Debug\DataStructuresLearningSoftware.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\DataStructuresLearningSoftware.unsuccessfulbuild".
+         Touching "Debug\DataStructuresLearningSoftware.lastbuildstate".
+     1>Done Building Project "F:\Backup3\Data-Structures-Learning-Software\DataStructuresLearningSoftware\DataStructuresLearningSoftware\DataStructuresLearningSoftware.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.11

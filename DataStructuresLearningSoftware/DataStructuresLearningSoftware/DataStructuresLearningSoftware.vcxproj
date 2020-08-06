@@ -1,0 +1,553 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{33912E4B-697F-47E5-90C8-A5F188645B7C}</ProjectGuid>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>DataStructuresLearningSoftware</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CLRSupport>Pure</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CLRSupport>Pure</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalIncludeDirectories>"SDK Path\Include"</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.ico" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AdminForm.cpp" />
+    <ClCompile Include="Arrays.cpp" />
+    <ClCompile Include="Array_Insertion.cpp" />
+    <ClCompile Include="Array_Introduction.cpp" />
+    <ClCompile Include="Array_Search.cpp" />
+    <ClCompile Include="Array_Traversal.cpp" />
+    <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="BinarySearch.cpp" />
+    <ClCompile Include="BST.cpp" />
+    <ClCompile Include="BST_deletion.cpp" />
+    <ClCompile Include="BST_insertion.cpp" />
+    <ClCompile Include="BST_intro.cpp" />
+    <ClCompile Include="BST_introduction.cpp" />
+    <ClCompile Include="BST_search.cpp" />
+    <ClCompile Include="bubbleSort.cpp" />
+    <ClCompile Include="DataStructuresLearningSoftware.cpp" />
+    <ClCompile Include="DiscussionForum.cpp" />
+    <ClCompile Include="DiscussionForum_Main.cpp" />
+    <ClCompile Include="Graph.cpp" />
+    <ClCompile Include="GraphBFS.cpp" />
+    <ClCompile Include="GraphList.cpp" />
+    <ClCompile Include="GraphMatrix.cpp" />
+    <ClCompile Include="Graphs_Home.cpp" />
+    <ClCompile Include="Graph_Matrix.cpp" />
+    <ClCompile Include="Heap.cpp" />
+    <ClCompile Include="Heap_Deletion.cpp" />
+    <ClCompile Include="Heap_Insertion.cpp" />
+    <ClCompile Include="Heap_Introduction.cpp" />
+    <ClCompile Include="Homepage.cpp" />
+    <ClCompile Include="LinkedList.cpp" />
+    <ClCompile Include="LinkedList1.cpp" />
+    <ClCompile Include="LinkedList_Deletion.cpp" />
+    <ClCompile Include="LinkedList_Insertion.cpp" />
+    <ClCompile Include="LinkedList_Introduction.cpp" />
+    <ClCompile Include="LinkedList_Traversal.cpp" />
+    <ClCompile Include="LoginForm.cpp" />
+    <ClCompile Include="mergesort.cpp" />
+    <ClCompile Include="Queue_Home.cpp" />
+    <ClCompile Include="Stack_Animations.cpp" />
+    <ClCompile Include="Stack_Applications.cpp" />
+    <ClCompile Include="Stack_Implementation_Array.cpp" />
+    <ClCompile Include="Stack_Implementation_LinkedList.cpp" />
+    <ClCompile Include="Stack_Introduction.cpp" />
+    <ClCompile Include="Stack_Main.cpp" />
+    <ClCompile Include="Stack_Resources.cpp" />
+    <ClCompile Include="Stack_Test.cpp" />
+    <ClCompile Include="InsertionSort.cpp" />
+    <ClCompile Include="LinearSearch.cpp" />
+    <ClCompile Include="moduleQuiz.cpp" />
+    <ClCompile Include="QuickSort.cpp" />
+    <ClCompile Include="Quiz.cpp" />
+    <ClCompile Include="Searching.cpp" />
+    <ClCompile Include="SelectionSort.cpp" />
+    <ClCompile Include="Sorting.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="UI_Circular_Queue.cpp" />
+    <ClCompile Include="UI_Circular_Queue_Animation.cpp" />
+    <ClCompile Include="UI_Circular_Queue_Array.cpp" />
+    <ClCompile Include="UI_Circular_Queue_LL.cpp" />
+    <ClCompile Include="UI_Linear_Queue.cpp" />
+    <ClCompile Include="UI_Linear_Queue_Animation.cpp" />
+    <ClCompile Include="UI_Linear_Queue_Array.cpp" />
+    <ClCompile Include="UI_Linear_Queue_LL.cpp" />
+    <ClCompile Include="UI_Queue_App.cpp" />
+    <ClCompile Include="UI_Queue_Introduction.cpp" />
+    <ClCompile Include="UI_Queue_Quiz.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AdminForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Arrays.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Array_Insertion.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="Array_Introduction.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="Array_Search.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="Array_Traversal.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="BST.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="BST_deletion.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="BST_insertion.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="BST_intro.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="BST_introduction.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="BST_search.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="DiscussionForum.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="BinarySearch.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="bubbleSort.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="DiscussionForum_Main.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="GraphBFS.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="GraphList.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="GraphMatrix.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="Graphs_Home.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Heap.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Heap_Deletion.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="Heap_Insertion.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="Heap_Introduction.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="Homepage.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="InsertionSort.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="LinearSearch.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="LinkedList1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="LinkedList_Deletion.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="LinkedList_Insertion.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="LinkedList_Introduction.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="LinkedList_Traversal.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="LoginForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MainPage.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="mergesort.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="Queue_Home.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="moduleQuiz.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="QuickSort.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="Quiz.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Stack_Animations.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="Stack_Applications.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="Stack_Implementation_Array.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="Stack_Implementation_LinkedList.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="Stack_Introduction.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="Stack_Main.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Stack_Resources.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="Stack_Test.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="Searching.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="SelectionSort.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="Sorting.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="UI_Circular_Queue.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="UI_Circular_Queue_Animation.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="UI_Circular_Queue_Array.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="UI_Circular_Queue_LL.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="UI_Linear_Queue.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="UI_Linear_Queue_Animation.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="UI_Linear_Queue_Array.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="UI_Linear_Queue_LL.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="UI_Queue_App.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="UI_Queue_Introduction.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="UI_Queue_Quiz.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AdminForm.resx">
+      <DependentUpon>AdminForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Arrays.resx">
+      <DependentUpon>Arrays.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Array_Insertion.resx">
+      <DependentUpon>Array_Insertion.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Array_Introduction.resx">
+      <DependentUpon>Array_Introduction.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Array_Search.resx">
+      <DependentUpon>Array_Search.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Array_Traversal.resx">
+      <DependentUpon>Array_Traversal.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BST.resx">
+      <DependentUpon>BST.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BST_deletion.resx">
+      <DependentUpon>BST_deletion.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BST_insertion.resx">
+      <DependentUpon>BST_insertion.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BST_intro.resx">
+      <DependentUpon>BST_intro.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BST_introduction.resx">
+      <DependentUpon>BST_introduction.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BST_search.resx">
+      <DependentUpon>BST_search.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DiscussionForum.resx">
+      <DependentUpon>DiscussionForum.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BinarySearch.resx">
+      <DependentUpon>BinarySearch.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bubbleSort.resx">
+      <DependentUpon>bubbleSort.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DiscussionForum_Main.resx">
+      <DependentUpon>DiscussionForum_Main.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graph.resx">
+      <DependentUpon>Graph.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphBFS.resx">
+      <DependentUpon>GraphBFS.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphList.resx">
+      <DependentUpon>GraphList.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphMatrix.resx">
+      <DependentUpon>GraphMatrix.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graphs_Home.resx">
+      <DependentUpon>Graphs_Home.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Heap.resx">
+      <DependentUpon>Heap.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Heap_Deletion.resx">
+      <DependentUpon>Heap_Deletion.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Heap_Insertion.resx">
+      <DependentUpon>Heap_Insertion.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Heap_Introduction.resx">
+      <DependentUpon>Heap_Introduction.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homepage.resx">
+      <DependentUpon>Homepage.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertionSort.resx">
+      <DependentUpon>InsertionSort.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LinearSearch.resx">
+      <DependentUpon>LinearSearch.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LinkedList.resx">
+      <DependentUpon>LinkedList.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LinkedList1.resx">
+      <DependentUpon>LinkedList1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LinkedList_Deletion.resx">
+      <DependentUpon>LinkedList_Deletion.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LinkedList_Insertion.resx">
+      <DependentUpon>LinkedList_Insertion.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LinkedList_Introduction.resx">
+      <DependentUpon>LinkedList_Introduction.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LinkedList_Traversal.resx">
+      <DependentUpon>LinkedList_Traversal.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainPage.resX">
+      <DependentUpon>MainPage.h</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mergesort.resx">
+      <DependentUpon>mergesort.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Queue_Home.resx">
+      <DependentUpon>Queue_Home.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Circular_Queue.resx">
+      <DependentUpon>UI_Circular_Queue.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Circular_Queue_Animation.resx">
+      <DependentUpon>UI_Circular_Queue_Animation.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Circular_Queue_Array.resx">
+      <DependentUpon>UI_Circular_Queue_Array.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Circular_Queue_LL.resx">
+      <DependentUpon>UI_Circular_Queue_LL.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Linear_Queue.resx">
+      <DependentUpon>UI_Linear_Queue.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Linear_Queue_Animation.resx">
+      <DependentUpon>UI_Linear_Queue_Animation.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Linear_Queue_Array.resx">
+      <DependentUpon>UI_Linear_Queue_Array.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Linear_Queue_LL.resx">
+      <DependentUpon>UI_Linear_Queue_LL.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Queue_App.resx">
+      <DependentUpon>UI_Queue_App.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Queue_Introduction.resx">
+      <DependentUpon>UI_Queue_Introduction.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Queue_Quiz.resx">
+      <DependentUpon>UI_Queue_Quiz.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stack_Animations.resx">
+      <DependentUpon>Stack_Animations.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stack_Applications.resx">
+      <DependentUpon>Stack_Applications.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stack_Implementation_Array.resx">
+      <DependentUpon>Stack_Implementation_Array.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stack_Implementation_LinkedList.resx">
+      <DependentUpon>Stack_Implementation_LinkedList.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stack_Introduction.resx">
+      <DependentUpon>Stack_Introduction.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stack_Main.resx">
+      <DependentUpon>Stack_Main.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stack_Resources.resx">
+      <DependentUpon>Stack_Resources.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stack_Test.resx">
+      <DependentUpon>Stack_Test.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moduleQuiz.resx">
+      <DependentUpon>moduleQuiz.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickSort.resx">
+      <DependentUpon>QuickSort.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quiz.resx">
+      <DependentUpon>Quiz.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Searching.resx">
+      <DependentUpon>Searching.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectionSort.resx">
+      <DependentUpon>SelectionSort.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sorting.resx">
+      <DependentUpon>Sorting.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
